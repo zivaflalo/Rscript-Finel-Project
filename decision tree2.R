@@ -1,7 +1,8 @@
 #set time zone
 Sys.setenv(TZ="UTC")
 Sys.setlocale("LC_TIME","English")
-
+install.packages('GGally')
+library(GGally)
 library(ggplot2)
 library(rpart)
 library(rpart.plot)
